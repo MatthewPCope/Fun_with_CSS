@@ -48,3 +48,7 @@ li {
 li:last-child {
     margin-bottom: 0;
 }
+
+.related{
+    list-style: none;
+}
