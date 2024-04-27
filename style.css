@@ -2,6 +2,13 @@
     padding:0;
     margin:0
 }
+#container{
+    margin: 0px auto;
+    width: 1060px
+}
+header{
+    background-color: lightblue;
+}
 
 h1,
 h2,
@@ -57,3 +64,4 @@ li:last-child {
 .related{
     list-style: none;
 }
+
