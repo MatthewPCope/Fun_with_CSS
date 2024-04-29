@@ -23,10 +23,23 @@ h1 {
     text-transform: uppercase;
     font-style: italic;
 }
+h2::after{
+    content: "TOP";
+    background-color: yellow;
+    font-weight: bold;
+    font-size: 16px;
+    display: inline-block;
+    padding: 5px 10x;
+    top: -15px;
+    
+    right: -25px;
+    position: absolute;
+}
 
 h2 {
     font-size: 40px;
     margin-bottom: 30px;
+    position: relative;
 }
 
 h3 {
