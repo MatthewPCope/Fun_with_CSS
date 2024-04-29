@@ -9,6 +9,7 @@
 header{
     background-color: lightblue;
     border-radius: 5px;
+    
 }
 
 h1,
@@ -46,11 +47,11 @@ p {
     margin-bottom: 15px;
 }
 
-ul,
+/* ul,
 ol {
     margin-left: 50px;
     margin-bottom: 20px;
-}
+} */
 
 li {
     font-size: 20px;
@@ -64,5 +65,11 @@ li:last-child {
 
 .related{
     list-style: none;
+    background-color: beige;
+    padding: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
 }
 
